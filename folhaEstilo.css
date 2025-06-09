@@ -1,6 +1,4 @@
 #Imagem{
-    height: 854;
-    width: 480;
-    field-sizing: fixed;
-
+    height: fit-content;
+    width: fit-content;
 }
