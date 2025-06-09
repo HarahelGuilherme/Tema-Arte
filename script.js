@@ -16,7 +16,7 @@ let currentIndex = 0;
 // Função que altera a imagem
 function changeImage() {
     currentIndex = (currentIndex + 1) % imgArray.length; // Muda para a próxima imagem
-    document.getElementById("image").src = imgArray[currentIndex]; // Altera o src da imagem
+    document.getElementById("Imagem").src = imgArray[currentIndex]; // Altera o src da imagem
 }
 
 // Adiciona o evento de click ao body ou imagem
